@@ -1,4 +1,4 @@
-// import java.util.Arrays;
+ import java.util.Arrays;
 
 // public class arrayswap {
 //     public static void main(String[] args) {
@@ -34,18 +34,36 @@
 //         System.out.println(Arrays.toString(arr));
 //     }
 // }
-import java.util.Arrays;
+// import java.util.Arrays;
+
+// public class arrayswap {
+
+//     public static void main(String[] args) {
+//         int[]arr={2,4,5,67,6};
+//          int swp1=arr[2];   //here 5 change as 6
+//         int swp2=arr[4];     //here value 6 change as 5
+//         int temp=swp1;
+//         swp1=swp2;
+//         swp2=temp;
+//        System.out.println(Arrays.toString(arr));
+        
+//     }
+// }
+// swaping array
+// reverse the array
+// 
+
+
+
 
 public class arrayswap {
 
     public static void main(String[] args) {
-        int[]arr={2,4,5,67,6};
-         int swp1=arr[2];   //here 5 change as 6
-        int swp2=arr[4];     //here value 6 change as 5
-        int temp=swp1;
-        swp1=swp2;
-        swp2=temp;
-       System.out.println(Arrays.toString(arr));
-        
+        int[]sree={3,5,6,7,8};
+        System.out.println(Arrays.toString(sree));
+        int temp=sree[4];
+        sree[4]=sree[2];
+        sree[2]=temp;
+        System.out.println(Arrays.toString(sree));
     }
 }
